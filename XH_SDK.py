@@ -737,7 +737,7 @@ except ImportError:
     os.system("pip install subprocess")
 def windows_run_powershell(run_str:str):
     subprocess.run(['powershell',run_str], capture_output=True, text=True)
-
+'''1'''
 #--------------------------------------------------------------------------->Functions End<--------------------------------------------------------------------------
 #                                                                                               #
     #                                                                                       #
